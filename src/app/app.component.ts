@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projeto-comunicacao-componente';
+
+  evento(event){
+    console.log(event)
+  }
 }
